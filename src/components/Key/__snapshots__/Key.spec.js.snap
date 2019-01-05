@@ -1,10 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Display should render correctly 1`] = `
+exports[`Key should render correctly 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Display
-    displayValue=""
+  Symbol(enzyme.__unrendered__): <Key
+    keyAction={[MockFunction]}
+    keyType=""
+    keyValue=""
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -20,11 +22,12 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": <p
-        className="display-value"
+        className="key-value"
       >
         
       </p>,
-      "className": "display-container",
+      "className": "key-container ",
+      "onClick": [Function],
     },
     "ref": null,
     "rendered": Object {
@@ -33,7 +36,7 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": "",
-        "className": "display-value",
+        "className": "key-value",
       },
       "ref": null,
       "rendered": "",
@@ -48,11 +51,12 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": <p
-          className="display-value"
+          className="key-value"
         >
           
         </p>,
-        "className": "display-container",
+        "className": "key-container ",
+        "onClick": [Function],
       },
       "ref": null,
       "rendered": Object {
@@ -61,7 +65,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": "",
-          "className": "display-value",
+          "className": "key-value",
         },
         "ref": null,
         "rendered": "",
