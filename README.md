@@ -10,15 +10,15 @@ $ cd react-calculator
 ```
 
 ```sh
-$ yarn install
+$ npm i
 ```
 
 ## Run Locally
 ```sh
-$ yarn start
+$ npm start
 ```
 
 ## Run Tests
 ```sh
-$ yarn test
+$ npm test
 ```
